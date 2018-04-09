@@ -1,5 +1,5 @@
 timeout(time: 1, unit: 'MINUTES') {
-    node('nodejs') {
+    node() {
 		stage('test1') {
 			echo 'This is the test1.'
 			echo 'This is the test1'
