@@ -1,11 +1,10 @@
-timeout(time: 1, unit: 'MINUTES') {
-    node() {
-		stage('test1') {
-			echo 'This is the test1.'
-			echo 'This is the test1'
-		}
-		stage('test2') {
-			echo 'This is the test2.'
-		}
+node() {
+	stage('test1') {
+		echo 'This is the test1.'
+		echo 'This is the test1'
+	}
+	stage('test2') {
+		echo 'This is the test26666.'
 	}
 }
+
