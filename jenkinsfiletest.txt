@@ -4,7 +4,7 @@ node() {
 		echo 'This is the test1'
 	}
 	stage('test2') {
-		echo 'This is the test26666.'
+		echo 'This is the test2666677777.'
 	}
 }
 
